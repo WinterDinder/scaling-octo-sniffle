@@ -1,0 +1,6 @@
+_G.farmon = true
+while _G.farmon do
+   game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = CFrame.new(821.514709, 388.48056, 4214.9834, -0.0403586291, -7.05200875e-09, 0.999185264, -1.10081348e-08, 1, 6.61312383e-09, -0.999185264, -1.07322702e-08, -0.0403586291)
+   game:GetService("Workspace").Obby.Obby2.Head.CFrame = game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame
+   task.wait()
+end
